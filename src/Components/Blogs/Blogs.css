@@ -1,0 +1,12 @@
+.bloges-section {
+    margin: 20px;
+    padding: 20px;
+}
+.bloges-section{
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 20px;
+}

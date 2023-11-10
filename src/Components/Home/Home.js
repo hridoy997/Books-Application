@@ -31,15 +31,15 @@ const Home = () => {
                 <div>
                     <h1>Customer Reviews({threeRandomReviews.length})</h1>
                     <div className='Review-section'>
-                    {
-                        threeRandomReviews.map(review => <ReviewItem
-                            key={review.id}
-                            review = {review}
-                            reviewsHome = {threeRandomReviews}
-                        ></ReviewItem>)
-                    }
-                    
+                        {
+                            threeRandomReviews.map(review => <ReviewItem
+                                key={review.id}
+                                review = {review}
+                                reviewsHome = {threeRandomReviews}
+                            ></ReviewItem>)
+                        }
                     </div>
+
                     <button onClick={()=>navigate('/review')} className='review-btn'>See all review</button>
                 </div>
                 
