@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
-import Review from '../Review/Review';
 import useReviews from '../../Hooks/useReviews';
 import { useNavigate } from 'react-router-dom';
 import ReviewItem from '../ReviewItem/ReviewItem';
+import BooksApplicationImage from '../../assets/Books-Application.png';
 
 const Home = () => {
 
@@ -16,15 +16,15 @@ const Home = () => {
     };
     
     const threeRandomReviews = getRandomReviews(reviews, 3);
-    // console.log(threeRandomReviews);
 
     return (<section>
-                <div className='home-section half-width'>
-                    <div className="banner-details home-section">
-                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, odio.</h1>
+                <div className='home-section '>
+                    <div className="banner-details half-width">
+                        <h1>Welcome to<br></br> Books Application</h1>
+                        <p>Discover a world of amazing books and dive into captivating stories that will transport you to new adventures.</p>
                     </div>
                     <div className="banner-img half-width">
-                        <h2>Image section</h2>
+                        <img src={BooksApplicationImage} alt="" />
                     </div>
                 </div>
 
