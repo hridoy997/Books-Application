@@ -1,0 +1,20 @@
+.Header {
+    background-color: aqua;
+    /* height: 40px; */
+}
+
+.Header nav{
+    padding: 10px;
+}
+
+.Header nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #6d6d6d;
+    font-size: large;
+    font-weight: bold;
+}
+.Header nav a:hover{
+    /* color: #6d6d6d; */
+    opacity: 0.5;
+}
