@@ -6,7 +6,7 @@ import Review from './Components/Review/Review';
 import DashBord from './Components/DashBord/DashBord';
 import Blogs from './Components/Blogs/Blogs';
 import About from './Components/About/About';
-import NotFound from './Components/NotFound/NotFound';
+// import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path='/dashBord' element={<DashBord/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/about' element={<About/>}></Route>
-        <Route path='*' element={<NotFound/>}></Route>
+        {/* <Route path='*' element={<NotFound/>}></Route> */}
       </Routes>
     </div>
   );
